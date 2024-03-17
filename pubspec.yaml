@@ -1,0 +1,58 @@
+name: youtube
+description: "A new Flutter project."
+
+publish_to:
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  google_fonts: ^6.2.1
+fonts:
+  - family:giyaste
+  - fonts:
+      - assets: assets/fonts/giyaste.otf,
+
+  - family:monstrateAlternative
+  - fonts:
+      - assets: assets/fonts/MontserratAlternates-Medium.ttf
+    
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/CircledMenu.png
+    - assets/images/intro.png
+    - assets/images/CircledRight.png
+    - assets/images/FavoriteCart.png
+    - assets/images/image2.png
+    - assets/images/longimage.png
+    - assets/images/Rectangle2.png
+    
+
+    
+  #   - images/a_dot_ham.jpeg
+
+
+dependency_overrides:
+  leak_tracker: ^10.0.4
+  leak_tracker_flutter_testing: 3.0.3
+  leak_tracker_testing: 3.0.1
+  meta: 1.12.0
+  test_api: 0.7.0
+  vm_service: 14.1.0
+  material_color_utilities: 0.11.1
